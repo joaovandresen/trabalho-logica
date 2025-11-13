@@ -1,14 +1,11 @@
-const lampada = document.getElementById("lampada");
+const computador = document.getElementById("computador");
 
-computador.addEventListener("mouseover",ligar);
-computador.addEventListener("mouseout",desligar);
+function ligar(){
 
-function acender(){
-    lampada.src = "on.png";
-    document.body.style.background = "#ffeb3b22"
+    computador.src = "on.jpg"; 
+    document.body.style.background = "#00000022"
 }
-function apagar(){
-    lampada.src = "off.png";
-    document.body.style.background = "#222"
-    
+function desligar(){
+    computador.src = "off.jpg"; 
+    document.body.style.background = "#000000ff"
 }
