@@ -1,4 +1,6 @@
 const computador = document.getElementById("computador");
+computador.addEventListener("mouseover",ligar);
+computador.addEventListener("mouseout",desligar);
 
 function ligar(){
 
